@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86994be2.chunk.css",
+    "main.js": "/static/js/main.120d2df5.chunk.js",
+    "main.js.map": "/static/js/main.120d2df5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5027740.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5027740.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7ba649b2.chunk.js": "/static/js/2.7ba649b2.chunk.js",
+    "static/js/2.7ba649b2.chunk.js.map": "/static/js/2.7ba649b2.chunk.js.map",
+    "static/js/3.79126818.chunk.js": "/static/js/3.79126818.chunk.js",
+    "static/js/3.79126818.chunk.js.map": "/static/js/3.79126818.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.86994be2.chunk.css.map": "/static/css/main.86994be2.chunk.css.map",
+    "static/js/2.7ba649b2.chunk.js.LICENSE.txt": "/static/js/2.7ba649b2.chunk.js.LICENSE.txt",
+    "static/media/BroncoSec_Logo_Red.017c7f92.png": "/static/media/BroncoSec_Logo_Red.017c7f92.png",
+    "static/media/BroncoSec_Speaker.a6d00d68.jpeg": "/static/media/BroncoSec_Speaker.a6d00d68.jpeg",
+    "static/media/Casey_Bates.d4d528d3.80bc5802.jpg": "/static/media/Casey_Bates.d4d528d3.80bc5802.jpg",
+    "static/media/DanWalshHeadShot.3e458b04.jpeg": "/static/media/DanWalshHeadShot.3e458b04.jpeg",
+    "static/media/Devin_Bhatt.402af665.dece38c9.jpg": "/static/media/Devin_Bhatt.402af665.dece38c9.jpg",
+    "static/media/James_Ossam.e836616d.cffa62c5.jpg": "/static/media/James_Ossam.e836616d.cffa62c5.jpg",
+    "static/media/Jonathan_Ho.bb02a630.dbfb3fa3.png": "/static/media/Jonathan_Ho.bb02a630.dbfb3fa3.png",
+    "static/media/NehchalHeadShot.f1e59c56.jpeg": "/static/media/NehchalHeadShot.f1e59c56.jpeg",
+    "static/media/OSINT-workshop.a0d950fa.jpeg": "/static/media/OSINT-workshop.a0d950fa.jpeg",
+    "static/media/Rania_Ansari.15a99aa1.2d686474.jpg": "/static/media/Rania_Ansari.15a99aa1.2d686474.jpg",
+    "static/media/SlackLogoNoBG.18d7e786.png": "/static/media/SlackLogoNoBG.18d7e786.png",
+    "static/media/Vrinda_Shorewala.f2786428.0e7dfb71.jpg": "/static/media/Vrinda_Shorewala.f2786428.0e7dfb71.jpg",
+    "static/media/combined_flags.f11245bd.png": "/static/media/combined_flags.f11245bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5027740.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7ba649b2.chunk.js",
+    "static/css/main.86994be2.chunk.css",
+    "static/js/main.120d2df5.chunk.js"
+  ]
+}
