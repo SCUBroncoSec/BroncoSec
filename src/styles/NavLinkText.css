@@ -1,0 +1,11 @@
+.nav-link-text {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.nav-link-text:hover {
+    text-decoration: underline;
+    text-underline: red;
+}

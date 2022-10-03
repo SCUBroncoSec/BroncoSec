@@ -1,0 +1,12 @@
+#get-involved-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 10% 0 10% 0;
+}
+
+.get-involved-col {
+    margin: 3% 0;
+}

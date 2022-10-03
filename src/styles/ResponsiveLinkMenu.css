@@ -1,0 +1,14 @@
+#nav-links {
+    height: 30%;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 5%;
+}
+
+#open-nav-links {
+    background-color: transparent;
+    color: #aa0000;
+    border: none;
+}
