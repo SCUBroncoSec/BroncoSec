@@ -3,13 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Element } from 'react-scroll';
 import BoardMember from './BoardMember';
 import CaseyImg from '../images/Casey_Bates.d4d528d3.jpg';
-import RaniaImg from '../images/Rania_Ansari.15a99aa1.jpg';
-import JamesImg from '../images/James_Ossam.e836616d.jpg';
-import JonathanImg from '../images/Jonathan_Ho.bb02a630.png';
-import DevinImg from '../images/Devin_Bhatt.402af665.jpg';
-import VrindaImg from '../images/Vrinda_Shorewala.f2786428.jpg';
+import DevinImg from '../images/devin.jpg';
 import DannyImg from '../images/DanWalshHeadShot.jpeg';
-import NehchalImg from '../images/NehchalHeadShot.jpeg';
+import DavisImg from '../images/Davis.jpg';
+import EthanImg from '../images/bronco-sec-ethan.png';
+import TiffanyImg from '../images/Tiffany.png';
+import VarunImg from '../images/varun.jpg';
 
 import '../styles/Board.css';
 
@@ -22,46 +21,41 @@ export default function Board() {
           <Container>
             <Row>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={CaseyImg} title="President" name="Casey Bates">
-                  Hi All! I’m Casey, and I am super excited to be the BroncoSec president this year! I am a Senior Computer Science major from San Jose, CA. Cybersecurity is my main passion, and I especially enjoy solving tough challenges during capture the flag competitions. I also love learning more about other topics like computer networks, IoT, and AI. When away from my computer, you can often find me working on 3D printing projects, playing beach volleyball outside of Malley, or at Schott Stadium, where I am a student manager for the baseball team. Please feel free to reach out if you have questions, suggestions, or even just want to chat. I hope to see you all at BroncoSec events this year!
+                <BoardMember imageSrc={DannyImg} title="President" name="Daniel Walsh">
+                  Hello, my name is Danny Walsh, and I’m excited to be BroncoSec President this year! I am a junior Web Design & Engineering major from Georgetown, Massachusetts. When I’m not at my computer, I’m probably playing hockey for the SCU club ice hockey team, cooking for my friends, or playing guitar. I’m especially interested in front-end development, learning good UI techniques, and solving difficult coding challenges. I’m looking forward to seeing so many of you at our BroncoSec events and sharing our interest in cyber security. If you have any questions, feel free to reach out!
                 </BoardMember>
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={RaniaImg} title="Vice President" name="Rania Ansari">
-                  Hello! My name is Rania Ansari, and I will be a Junior studying Computer Science from San Jose. I love playing soccer, trying new food, and meeting new people! I’m super excited to serve as the Vice President of BroncoSec; we’ve got many fun things planned! My goal is to motivate other students to join and discover the endless possibilities with BroncoSec, from fun challenges to informative workshops! If you ever have any questions about anything or just want to talk, please don’t hesitate to reach out to me!
+                <BoardMember imageSrc={DevinImg} title="BroncoCTF Coordinator" name="Devin Bhatt">
+                  Hi, I’m Devin. I’m a junior Computer Science from the Bay Area. For my second year on the BroncoCTF board, I’ve taken on the role of BroncoCTF coordinator. Most of my work at BroncoSec involves planning for BroncoCTF, writing challenges, and setting up the infrastructure for you to (hopefully not) break :wink:. I love to learn new things (especially when it comes to security and infrastructure), and I love to help others learn as well. I hope that BroncoCTF is not just a fun event, but a learning opportunity for all of its attendees!
                 </BoardMember>
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={JamesImg} title="Internal CTF Coordinator" name="James Ossam">
-                  Hi there! I’m James and I’m a senior computer science major from just outside Boston MA. I’ve been interested in cybersecurity since I was in high school, which is why I’m so excited to be your BroncoSec Internal CTF Coordinator! When I’m not on the computer, you can find me tossing a frisbee around, or hanging out with friends. I’m really looking forward to meeting everyone this year, so if you see me around, feel free to say hi!
+                <BoardMember imageSrc={DavisImg} title="External CTF Coordinator" name="Davis Robertson">
+                  Hello! I’m Davis and I’m excited to be BroncoSec’s external CTF coordinator this year! I am a junior computer science (security emphasis) and philosophy major from New York. I’ve been interested in computer science since I was a kid and have really enjoyed being a part of BroncoSec at SCU. When I’m not writing papers or working on CS projects there’s a good chance you can find me playing or watching basketball. Please reach out if you have any questions or for any other reason, I’m looking forward to connecting with the BroncoSec community!
                 </BoardMember>
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={JonathanImg} title="External CTF Coordinator" name="Jonathan Ho">
-                  Hi, I’m Jonathan, aka CSN3RD, from Cupertino, CA. I am a junior, majoring in Computer Science. Outside of school, I compete in a lot of programming, security, and puzzle competitions. Some notable achievements include winning 1st in SCU’s Hack for Humanity CTF, 1st in Harvard’s Puzzle Day (twice in a row), 3rd in Stanford’s Programming Contest, 5th in UC Berkeley’s bSUIT Coding Contest, and 6th in Akamai’s Affinity CTF. I look forward to organizing different CTF events throughout the year for us to test our skills, learn new ones, and compete with teams from other colleges. Feel free to message me if you have any questions or suggestions!
+                <BoardMember imageSrc={VarunImg} title="Public Relations" name="Varun Mangla">
+                  Hello everyone! I’m Varun, a sophomore Computer Science and Engineering student from Los Altos, CA. While I only started coding during the winter quarter of my first year at SCU, I’ve always been fascinated with technology. I’m eager to join BroncoSec as its Public Relations manager this year, as participating in the club helped me develop a budding interest in cybersecurity. Through this role, I intend to introduce other students to BroncoSec and the ever-growing field of cybersecurity. Outside of computer science, some of my interests are music, games, and hanging out with my friends. Please let me know if you have any questions or suggestions, and I’m looking forward to seeing everyone at our weekly club meetings!
                 </BoardMember>
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={DevinImg} title="Workshop Coordinator" name="Devin Bhatt">
-                  Hi, I&apos;m Devin. I&apos;m a sophomore Computer Science and Engineering major from Mill Valley, CA. I&apos;ve been interested in computing for longer than I can remember (my dad had me playing with his computer when I was two years old!), and started attending BroncoSec events during my second week at SCU. What drew me to Computer Science (and Cybersecurity especially) was the thrill of finding interesting ways to make a computer do whatever you want it to, even if that means breaking things along the way. As the BroncoSec Workshop Coordinator this year, I hope to capture that magic in the form of fun and engaging challenges that provide a valuable learning experience.
+                <BoardMember imageSrc={TiffanyImg} title="Underclassmen Representative" name="Tiffany Nguyen">
+                  My name is Tiffany Nguyen, and I am a freshman majoring in Computer Science and Engineering from San Jose, California. I am passionate about learning about all the fun and interesting ways computer science can be applied across various fields like cybersecurity, and I hope to be able to help plan fun activities that get others excited about security.
                 </BoardMember>
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={VrindaImg} title="Public Relations" name="Vrinda Shorewala">
-                  Hey hey! My name is Vrinda and I am a senior Computer Science major. When I&apos;m not busy trying to debug my code, you can catch me dancing away with my friends, baking in the kitchen, or binge-watching a new series! I am super interested in security and have tried to stay involved in many initiatives on campus and outside SCU (I’d be happy to share all the resources I’ve collected so far!) I am excited to be on the board of BroncoSec and I hope to introduce more students to the amazingly vast and dynamic field of security. So feel free to reach out to me if you have any questions, ideas, or just want to talk. I can&apos;t wait to meet you all!
+                <BoardMember imageSrc={EthanImg} title="Underclassmen Representative" name="Ethan Sychangco">
+                  Hello, my name is Ethan Sychangco! I am one of your BroncoSec underclassman representatives for the 2022-2023 school year! I am a first-year majoring in Computer Science and Engineering, and I am local to the Bay Area. I find interest in all things technology, gaming, and cybersecurity, and I want to bring that excitement to the BroncoSec club. When I am not laser-focused on developing a project, I am probably spending time with family, enjoying game nights with friends, or watching random YouTube videos to take a break from my busy days. I want to make sure all BroncoSec members have their voices heard, and that we can support each other’s passions for cybersecurity. You can reach out to me at any time!
                 </BoardMember>
               </Col>
-              <Col sm={2}>
+              <Col sm={4}>
                 {/* Padding */}
               </Col>
               <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={DannyImg} title="Underclassmen Representative" name="Danny Walsh">
-                  Hello, my name is Danny Walsh, and I’m excited to be one of two BroncoSec Underclassmen Reps. I am a sophomore Web Design & Engineering major from North Shore, Massachusetts. When I’m not at my computer, I’m probably playing hockey for the SCU club ice hockey team, cooking for my friends, or playing guitar. I’m especially interested in front-end development, learning good UI techniques, and solving difficult coding challenges. I’m looking forward to getting other underclassmen excited about cybersecurity and growing BroncoSec. I look forward to seeing everyone at our workshops, speaker events, and Capture the Flag events. If you have any questions, feel free to reach out!
-                </BoardMember>
-              </Col>
-              <Col sm={4} className="board-member-col">
-                <BoardMember imageSrc={NehchalImg} title="Underclassmen Representative" name="Nehchal Thind">
-                  Hi!!! My name is Nehchal, and I’m a freshman from Danville, CA. I have been interested in computer science for as long as I can remember and am so excited to be this year’s underclassmen representative! Some things I love are traveling, working out, cooking, meeting new people, finding new music, and many other things! My goal for this year is to get everyone as excited about cyber security as I am and to share my love of the field with you all! I can’t wait to meet everyone at our upcoming meetings this year, and please feel free to reach out to me if you have any questions or just want to say hey!
+                <BoardMember imageSrc={CaseyImg} title="Graduate Relations" name="Casey Bates">
+                  Hi All! I’m Casey, a Computer Science and Engineering Master’s student from San Jose, CA. I’m passionate about Cybersecurity, and I especially enjoy solving tough challenges during capture the flag competitions. I also love learning more about other topics like computer networks, IoT, and cloud computing. Outside of school, I’ve been able to combine my interests in computers and baseball by working as a Software Engineer for the Philadelphia Phillies. Please feel free to reach out if you have questions, suggestions, or even just want to chat. I hope to see you all at BroncoSec events this year!
                 </BoardMember>
               </Col>
               <Col sm={2}>
